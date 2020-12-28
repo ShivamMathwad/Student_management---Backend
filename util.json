@@ -1,0 +1,78 @@
+{
+    "accountAlreadyExists": {
+        "code": 400,
+        "message": "Student Account already exists! Given user email is already in use!"
+    },
+    "errorOccured": {
+        "code": 400,
+        "message": "Error Occured"
+    },
+    "addedSuccessfully": {
+        "code": 200,
+        "message": "Added Successfully"
+    },
+    "accountDoesNotExist": {
+        "code": 400,
+        "message": "Account does not exist"
+    },
+    "updatedSuccessfully": {
+        "code": 200,
+        "message": "Updated Successfully"
+    },
+    "recordsFound": {
+        "code": 200,
+        "message": "Record(s) Found"
+    },
+    "recordsNotFound": {
+        "code": 404,
+        "message": "Record(s) Not Found"
+    },
+    "accountCredentialsWrong": {
+        "code": 404,
+        "message": "Account Credentials are wrong"
+    },
+    "loginSuccess": {
+        "code": 200,
+        "message": "Login Successful"
+    },
+    "deletedSuccessfully": {
+        "code": 200,
+        "message": "Deleted Successfully"
+    },
+    "deactivatedSuccessfully": {
+        "code": 200,
+        "message": "Deactivated Successfully"
+    },
+    "alreadyPresent": {
+        "code": 400,
+        "message": "Already Present"
+    },
+    "updationFailed": {
+        "code": 400,
+        "message": "Updation Failed"
+    },
+    "dataNotUpdated": {
+        "code": 204,
+        "message": "No Updated Data Found"
+    },
+    "invalidPassword": {
+        "code": 400,
+        "message": "Invalid Password"
+    },
+    "invalidEmailOrPassword": {
+        "code": 400,
+        "message": "Invalid Employee Number or Password"
+    },
+    "invalidEmailOrPassword1": {
+        "code": 400,
+        "message": "Invalid Email Id or Password"
+    },
+    "unauthorizedAccess": {
+        "code": 400,
+        "message": "Unauthorized Access"
+    },
+    "sessionExpired": {
+        "code": 400,
+        "message": "Session Expired"
+    }
+}
