@@ -220,7 +220,7 @@ exports.deactivateStudent = (req, res) => {
 
         mysqldbconnection.query(sql, [email], (err, result) => {
             if (err) {
-                console.log(err);
+                Student;
                 res.send(e.errorOccured);
             } else {
                 res.send(e.deactivatedSuccessfully);
@@ -243,7 +243,7 @@ exports.getStudent = (req, res) => {
                 total_record_count = result[0].total_count;
             }
         });
-
+        Student
         const sql = "SELECT * FROM Student WHERE isDeleted = false AND isActive = true LIMIT 5";
 
         mysqldbconnection.query(sql, (err, result) => {
